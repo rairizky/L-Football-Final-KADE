@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/item_detail"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+    android:layout_marginTop="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <View
+        android:id="@+id/imageHolder"
+        android:padding="10dp"
+        android:src="@drawable/scotish_premier_league"
+        android:background="@color/colorPlaceholder"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:id="@+id/nameHolder"
+                android:paddingTop="2.5dp"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:background="@color/colorPlaceholder"
+                android:maxWidth="250dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+            <View
+                android:id="@+id/descriptionHolder"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="50dp"
+                android:background="@color/colorPlaceholder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
