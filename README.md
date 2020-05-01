@@ -4,4 +4,4 @@ Final Submission from Kotlin Android Developer Expert Dicoding
 Data API from thesportdb.
 
 Certificate: 
-![dicoding_kade](https://drive.google.com/drive/u/0/folders/1-GT_7SBzCyoYJeQL1Ak_zt_CWGvHnScZ)
+![](https://user-images.githubusercontent.com/43008134/80782361-0ef22580-8ba0-11ea-865c-6b230d93e606.png)
